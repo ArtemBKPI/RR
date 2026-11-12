@@ -43,3 +43,12 @@
     printf("Suma ryadu S = %.6lf\n", S);
 
     return 0;
+
+# Результат виконання роботи (Завдання 1)
+
+<img width="471" height="127" alt="image" src="https://github.com/user-attachments/assets/d3ee8f41-6558-4ae4-b107-ba50c03cd66e" />
+
+    
+
+
+    
