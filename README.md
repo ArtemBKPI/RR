@@ -44,11 +44,75 @@
 
     return 0;
 
-# Результат виконання роботи (Завдання 1)
+**Результат виконання роботи (Завдання 1)**
 
 <img width="471" height="127" alt="image" src="https://github.com/user-attachments/assets/d3ee8f41-6558-4ae4-b107-ba50c03cd66e" />
 
-    
+# Завдання №2
+<img width="907" height="225" alt="image" src="https://github.com/user-attachments/assets/051577d3-2728-4161-8302-4110572d62d9" />
+
+**1) В цій частині: виконується оголошення змінної **
+
+    #include <stdio.h> 
 
 
+    int countMultiplesOfFive(int arr[], int size)
+
+**2) У цій частині: виконується підготовка до підрахунку та перевірка елементів масиву**    
+
+
+
+    int count = 0;
+
     
+    for (int i = 0; i < size; i++)
+    {
+
+    
+        if (arr[i] % 5 == 0)
+        {
+            
+            count++;
+        }
+    }
+
+    return count;
+
+**3) У цій частині: виконується введення даних та заповнення масиву. Створюється статичний масив на 10 цілих чисел. Користувач вводить 10 чисел.**        
+    
+ 
+    int arr[11];
+    int size = 11;
+
+    
+    printf("Vvedit 10 cilih cisel:\n");
+
+    for (int i = 1; i < size; i++)
+    {
+        printf("cislo[%d] = ", i);
+        scanf("%d", &arr[i]);
+        
+**4) У цій частині: виконується підрахунок, після цього програма виводить кількість чисел, кратних 5, та успішно завершує роботу.**
+
+
+    int result = countMultiplesOfFive(arr, size);
+
+    
+    printf("C5: %d\n", result);
+
+    return 0;
+    }
+
+**Результат виконання роботи (Завдання 2)**
+
+
+
+
+
+
+<img width="503" height="268" alt="image" src="https://github.com/user-attachments/assets/9913547f-9224-46d3-b088-7543ebe9ad59" />
+
+
+
+
+
